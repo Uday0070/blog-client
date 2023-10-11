@@ -61,7 +61,7 @@ const CreatePost = () => {
     const [file, setFile] = useState('');
     const { account } = useContext(DataContext);
 
-    const url = post.picture ? post.picture : 'https://i.ibb.co/nsZSJpf/pexels-wendy-wei-1540343.jpghttps://images.unsplash.com/photo-1543128639-4cb7e6eeef1b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wJTIwc2V0dXB8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80';
+    const url = post.picture ? post.picture : 'https://source.unsplash.com/collection/09ARrXAI2Sk/1600x900';
     
     useEffect(() => {
         const getImage = async () => {
