@@ -81,7 +81,7 @@ const Update = () => {
             formData.append('file', file);
     
             try {
-              const response = await fetch('https://blog-h1ujk4qbz-uday-kiran-rs-projects.vercel.app/file/upload', {
+              const response = await fetch('https://blog-api-ashen-pi.vercel.app/file/upload', {
                 method: 'POST',
                 body: formData,
               });
